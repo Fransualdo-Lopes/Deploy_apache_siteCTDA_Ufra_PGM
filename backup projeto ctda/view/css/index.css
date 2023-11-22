@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tangerine:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Outfit", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+h1 {
+    font-size: 40px;
+    color: rgb(28, 82, 33);
+    font-weight:rgb(255, 255, 255)
+}
+
+h2 {
+    margin: 40px;
+    color: rgb(28, 82, 33);
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(28, 82, 33);
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+h4 {
+    margin: 10px;
+    color: #fff;
+}
+
+h5 {
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 45px;
+}
+
+h6 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: rgb(156, 156, 156);
+    transform: rotate(-3deg);
+    margin-top: 0;
+}
+
+p {
+    margin: 10px;
+    color: black;
+}
+
+.imgNatureza {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.teste {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    background-color: rgba(130, 201, 180, 0.466);
+    border-radius: 10px 10px 15px 15px;
+}
+
+
+#template {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.titulo-101 {
+    color: rgb(28, 82, 33);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    padding: 5px;
+    background: rgb(255, 255, 255);
+}
+
+.slider {
+    position: relative;
+    width: 650px;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 3px 2px 3px rgb(143, 143, 143);
+    border: solid rgb(206, 206, 206) 1px;
+}
+
+.slider img {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.slider img.selected {
+    opacity: 1;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#section-0001 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.calendar {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    color: rgb(28, 82, 33);
+}
+
+.btn-link {
+    color: blue;
+}
+
+#principal-000 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 3px 2px 3px rgb(143, 143, 143);
+    width: 450px;
+    margin: 10px;
+}
+
+#principal-0001 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 3px 2px 3px rgb(143, 143, 143);
+    width: 400px;
+    margin: 10px;
+}
+
+
+.mesmalinha {
+    flex-direction: row;
+    width: 900px;
+    background: rgb(28, 82, 33);
+    color: rgb(255, 255, 255);
+}
+
+.mesmalinhanormal {
+    background: rgb(255, 255, 255);
+    width: 500px;
+    font-size: 14px;
+}
+
+.soul {
+    color: red;
+}
+
+#paragominas {
+    width: 100%;
+    height: 40vh;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../image/pgm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60%;
+    border-radius: 8px;
+}
+
+.cidade {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 8.5rem;
+    letter-spacing: 7px;
+    color: rgb(255, 255, 255);
+}
+
+.sede {
+    color: white;
+    font-size: 4rem;
+    transform: rotate(-90deg);
+}
+
+.final-sessao {
+    display: flex;
+    justify-content: space-around;
+}
+
+video {
+    width: 650px;
+    margin: 40px;
+    box-shadow: 2px 3px 2px 3px rgb(143, 143, 143);
+}
+
+.sub-title {
+    font-size: 1.3rem;
+    color: black;
+}
+
+.texto-600 {
+    color: rgb(0, 0, 0);
+}
+
+.cuidado {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 25px;
+    margin-top: 0;
+    background-color: rgba(130, 201, 180, 0.466);
+    border-radius: 10px 10px 15px 15px;
+}
+
+.conta {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card-025 {
+    width: 200px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 45px 45px;
+    border-radius: 15px 0 15px 0;
+    box-shadow: 2px 3px 2px 3px rgb(143, 143, 143);
+}
+
+.figura {
+    margin-top: 15px;
+    width: 40px;
+}
+
+.text-2002 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-2000 {
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 788px;
+    background-color: rgb(161, 224, 205);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+
+@media(max-width: 1200px) {
+    #paragominas .sede {
+        font-size: 3rem;
+    }
+    #paragominas .cidade {
+        font-size: 6rem;
+    }
+}
+
+@media(max-width: 900px) {
+    .corpo {
+        width: 350px;
+    }
+
+    #imgctda {
+        width: 350px;
+    }
+
+    main {
+        width: 300px;
+        height: 300px;
+    }
+
+    .mapa {
+        width: 340px;
+    }
+
+    .slider {
+        width: 350px;
+        height: 300px;
+    }
+
+    .tema {
+        width: 350px;
+    }
+
+    video {
+        width: 350px;
+    }
+    .titulo-101 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #paragominas .sede {
+        font-size: 3rem;
+    }
+    #paragominas .cidade {
+        font-size: 5rem;
+    }
+    .card-025 {
+        width: 250px;
+        height: 260px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        margin: 25px 25px;
+        border-radius: 15px 0 15px 0;
+    }
+}
+
+@media(max-width: 720px) {
+    #section-0001 {
+        display: flex;
+        flex-direction: column;
+    }
+    .slider {
+        max-width: 450px;
+        margin-bottom: 15px;
+    }
+    #princiapal-000 {
+        margin-top: 25px;
+    }
+    .mesmalinha {
+        font-size: 15px;
+    }
+    .titulo-101 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #principal-000 {
+        font-size: 10px;
+    }
+    .mesmalinhanormal {
+        font-size: 14px;
+    }
+    #paragominas .sede {
+        font-size: 2rem;
+    }
+    #paragominas .cidade {
+        font-size: 2rem;
+    }
+
+    .conta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .card-025 {
+        width: 350px;
+        height: 240px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        margin: 25px 25px;
+        border-radius: 15px 0 15px 0;
+    }
+    .text-2000 {
+        width: 350px;
+    }
+}
+
+@media(max-width: 380px) {
+    #section-0001 {
+        display: flex;
+        flex-direction: column;
+    }
+    .mesmalinha {
+        font-size: 13px;
+    }
+    .mesmalinhanormal {
+        font-size: 11px;
+    }
+
+    .corpo {
+        width: 230px;
+    }
+
+    #imgctda {
+        width: 280px;
+    }
+
+    main {
+        width: 260px;
+        height: 240px;
+        margin-top: 0;
+        margin: 5px;
+    }
+
+    .mapa {
+        width: 280px;
+    }
+
+    .slider {
+        width: 280px;
+        height: 250px;
+    }
+
+    .tema {
+        width: 280px;
+    }
+
+    video {
+        width: 280px;
+    }
+    #paragominas {
+        width: 100%;
+        height: 20vh;
+    }
+    #paragominas .sede {
+        font-size: 0.8rem;
+    }
+    #paragominas .cidade {
+        font-size: 1.8rem;
+    }
+    .card-025 {
+        width: 250px;
+        height: 235px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        align-items: center;
+        margin: 15px 15px;
+        border-radius: 15px 0 15px 0;
+    }
+    .sub-title {
+        font-size: 1.1rem;
+    }
+    .text-2000 {
+        width: 260px;
+    }
+    .text-2001 {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 295px) {
+    #paragominas .sede {
+        font-size: 0.8rem;
+    }
+    #paragominas .cidade {
+        font-size: 1.3rem;
+    }
+}
